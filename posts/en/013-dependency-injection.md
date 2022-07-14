@@ -177,7 +177,7 @@ No need to pass anything down through 5 constructors just to access the data. Le
 
 ## get_it
 
-Get it is what is known as a simple service locator. Traditionally you register your your types against an interface and provide the concrete implementation to it. This way you benefit from developing against an interface which also makes unit testing easier because you can provide test specific implementations. Today we won't be doing that. This is just about dependency injection. Let's get to the code.
+Get it is what is known as a simple service locator. Traditionally you register your types against an interface and provide the concrete implementation to it. This way you benefit from developing against an interface which also makes unit testing easier because you can provide test specific implementations. Today we won't be doing that. This is just about dependency injection. Let's get to the code.
 
 Add get_it to the pubspec
 
